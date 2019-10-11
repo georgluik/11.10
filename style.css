@@ -75,6 +75,7 @@ input[type=text] {
   	background: transparent;
   	color:white;
   	outline:0;	
+  	font-size:18px;
  } 
  ::placeholder { 
   color: white;
@@ -113,7 +114,7 @@ input[type=text]:focus{
 .product{
 	display:flex;
 	justify-content: space-between;
-	margin-top:20px;
+	margin-top:40px;
 	font-size:18px;
 	border-bottom:1px solid white;
 }
@@ -127,7 +128,7 @@ input[type=text]:focus{
 
 .footer{
 	display:flex;
-	background-color:#7F00BF;
+	background-color:#8C23EB;
 	padding:70px 0 30px 0;
 	z-index:0;
 	color:white;
