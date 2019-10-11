@@ -23,6 +23,7 @@ body{
 .header p{
 	font-size:32px;
 	color:black;
+	margin-left:20px;
 
 
 }
@@ -88,6 +89,7 @@ input[type=text]:focus{
 	animation-name:clip;
 	animation-duration:.5s;
 	animation-timing-function: ease-out;
+	color:black;
 
 }
 
