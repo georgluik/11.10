@@ -73,12 +73,33 @@ input[type=text] {
 	border: none;
   	border-bottom: 1px solid white;
   	background: transparent;
-  	color:white;	
+  	color:white;
+  	outline:0;	
  } 
  ::placeholder { 
   color: white;
   opacity: 0.8; 
 }
+
+input[type=text]:focus{
+	border-bottom:1px solid black;
+	outline:0;
+	animation-name:clip;
+	animation-duration:.5s;
+	animation-timing-function: ease-out;
+
+}
+
+@keyframes clip{
+	0%{
+		clip-path: inset(0 50% 0 0);
+	}
+	100%{
+		clip-path: inset(0 0 0 0);
+	}
+	
+}
+
 
 .sum{
 	background-color: black;
